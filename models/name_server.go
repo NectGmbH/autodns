@@ -18,7 +18,7 @@ import (
 type NameServer struct {
 
 	// The ip addresses.
-	IPAddresses []string `json:"ipAddresses,omitempty"`
+	IPAddresses []string `json:"ipAddresses"`
 
 	// Host name of the nameserver.
 	// Required: true
